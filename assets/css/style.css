@@ -94,6 +94,10 @@ footer {
 .videos-hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-videos.jpg);
 }
+.tour-hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-tour.jpeg);
+}
+
 
 
 /*  Hero images and text end*/
