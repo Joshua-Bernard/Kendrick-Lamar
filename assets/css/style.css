@@ -100,4 +100,7 @@ footer {
 .about-hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-about.jpg);
 }
+.contact-hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-contact.jpg);
+}
 /*  Hero images and text end*/
