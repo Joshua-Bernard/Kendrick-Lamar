@@ -26,10 +26,7 @@
     }
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 1c851559d4fcd0e5e1ca87d070446ccee7eb5cca
 .nav-link-group{
     text-align: center;
 }
@@ -87,5 +84,8 @@ footer {
 
 .index-hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-index.jpg);
+}
+.music-hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-music.jpg);
 }
 /*  Hero images and text end*/
