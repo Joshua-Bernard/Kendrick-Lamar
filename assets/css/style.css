@@ -12,12 +12,18 @@
     font-family: 'Roboto', sans-serif;
     font-size:20px;
 }
+
 .nav-link:hover{
     color:#A3320B
 }
 .navbar-brand{
     text-transform: uppercase;
     font-size: 40px;
+}
+@media only screen and (max-width: 992px) {
+    .navbar-brand{ 
+    font-size: 4vw;
+    }
 }
 /* NavBar End */
 
@@ -42,3 +48,37 @@ footer {
     color:#A3320B
 }
 /* Footer End */
+
+/*  Hero images and text start*/
+.hero-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 60vh;
+    width: auto;
+    text-align: center;
+}
+.index-hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #A3320B;
+    font-size: 5vw;
+    
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+
+}
+
+.index-hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-index.jpg);
+}
+/*  Hero images and text end*/
