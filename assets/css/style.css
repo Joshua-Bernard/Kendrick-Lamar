@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* NavBar Start */
+.active {
+    color: #A3320B !important;
+}
+.navbar {
+    background-color: #505353;
+}
+
+.nav-link {
+    color: #B0B8B8;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+.nav-link:hover{
+    color:#A3320B
+}
+.navbar-brand{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+/* NavBar End */
+
+/* Footer Start */
+
+footer {
+    background-color: #505353;
+}
+.sl-footer{
+    text-align: center;
+}
+.fab{
+    color: #000000;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fab:hover{
+    color:#A3320B
+}
+/* Footer End */
