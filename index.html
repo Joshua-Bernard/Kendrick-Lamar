@@ -11,15 +11,6 @@
     <!-- Latest compiled and minified CSS - https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <!-- jQuery library - https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Popper JS - https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript - https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
     <!-- Font Awesome - https://fontawesome.com/ -->
     <script src="https://kit.fontawesome.com/33a3b91496.js" crossorigin="anonymous"></script>
 
@@ -33,12 +24,12 @@
 <body>
     <header>
         <!-- Navbar Start-->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand nav-link" href="index.html">Kendrick Lamar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
 
                 <ul class="navbar-nav Smr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
@@ -75,24 +66,27 @@
         <!-- Hero image end-->
     </header>
     <main>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <p class="general-content">Welcome to the home of TDE's Kendrick Lamar, One of the most influential
+        <div class="container-fluid silver-sand-bg">
+            <div class="row align-items-center">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img class="studio-index" src="/assets/images/studio-index.jpg" alt="Kendrick Lamar in studio">
+                </div>
+                <div class="col-md-6">
+                    <p class="general-content welcome">Welcome to the home of TDE's Kendrick Lamar, One of the most
+                        influential
                         artists of his
                         generation known for his lyricism amazing delivery and ability to convey the deepest of messages
                         in his music.</p>
-                    <a href="about.html" class="btn btn-info" role="button">LEARN MORE</a>
+                    <p class="welcome"><a href="about.html" class="btn info-button" role="button">LEARN MORE</a></p>
                 </div>
-                <div class="col-sm-6">
-                    <img class="studio-index" src="/assets/images/studio-index.jpg" alt="Kendrick Lamar in studio">
-                </div>
+
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid spanish-grey-bg">
             <div class="row">
-                <div class="col-12">
-                    <img class="heart-5-index" src="/assets/images/heart-5-index.jpg" alt="Logo for new single heart V">
+                <div class="col-12 heart-5-index">
+                    <img class="heart-5-index-img" src="/assets/images/heart-5-index.jpg"
+                        alt="Logo for new single heart V">
                     <br>
                     <h3 class="subtitle-1">THE HEART V</h3>
                     <br>
@@ -100,13 +94,17 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-7">
-                    <iframe class="index-video" width="560" height="315" src="https://www.youtube.com/embed/drV0QatqbRU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="container-fluid silver-sand-bg">
+            <div class="row align-items-center">
+                <div class="col-sm-6 d-flex justify-content-center">
+                    <!-- width="560" height="315" -->
+                    <iframe class="index-video" src="https://www.youtube.com/embed/drV0QatqbRU" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
-                <div class="col-sm-5">
-                    <h3 class="subtitle-1">Kendrick Lamar - These Walls (Explicit) ft. Bilal, Anna Wise, Thundercat</h3>
+                <div class="col-sm-6 d-flex justify-content-center">
+                    <h4 class="subtitle-2 index-video-title">Kendrick Lamar - These Walls (Explicit) ft. Bilal, Anna
+                        Wise, Thundercat</h4>
                 </div>
             </div>
         </div>
@@ -114,48 +112,58 @@
     </main>
     <!-- Social links footer Start-->
     <footer class="container-fluid">
-        <div class="row">
+        <div class="row align-items-center justify-content-center">
             <div class="col-2 sl-footer">
                 <a target="_blank" href="https://www.facebook.com/kendricklamar">
                     <i class="fab fa-facebook"></i>
                     <span class="sr-only">Facebook</span>
                 </a>
             </div>
-            <div class="col-2 sl-footer">
+            <div class="col-2 sl-footer justify-content-center">
                 <a target="_blank" href="https://www.instagram.com/kendricklamar/">
                     <i class="fab fa-instagram"></i>
                     <span class="sr-only">Instagram</span>
                 </a>
             </div>
-            <div class="col-2 sl-footer">
+            <div class="col-2 sl-footer justify-content-center">
                 <a target="_blank" href="https://twitter.com/kendricklamar?lang=en">
                     <i class="fab fa-twitter"></i>
                     <span class="sr-only">Twitter</span>
                 </a>
 
             </div>
-            <div class="col-2 sl-footer">
+            <div class="col-2 sl-footer justify-content-center">
                 <a target="_blank" href="https://www.youtube.com/user/KendrickLamarVEVO">
                     <i class="fab fa-youtube"></i>
                     <span class="sr-only">Youtube</span>
                 </a>
             </div>
-            <div class="col-2 sl-footer">
+            <div class="col-2 sl-footer justify-content-center">
                 <a target="_blank" href="https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg">
                     <i class="fab fa-spotify"></i>
                     <span class="sr-only">Spotify</span>
                 </a>
             </div>
-            <div class="col-2 sl-footer">
+            <div class="col-2 sl-footer justify-content-center">
                 <a target="_blank" href="https://music.apple.com/gb/artist/kendrick-lamar/368183298">
                     <i class="fab fa-apple"></i>
                     <span class="sr-only">Apple Music</span>
                 </a>
             </div>
         </div>
+        <!-- Social links footer End-->
     </footer>
 
-    <!-- Social links footer End-->
+
+    <!-- jQuery library - https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS - https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript - https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
