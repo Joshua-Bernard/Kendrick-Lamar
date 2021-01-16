@@ -165,7 +165,7 @@
 .heart-5-index-img{
     height:auto;
     width:30vw ;
-    padding-bottom: 1vh;
+    padding-bottom: 10px;
 }
 
 
@@ -212,9 +212,26 @@
 
 .album-title{
     text-align: center;
-    padding-bottom: 1vh;
+    padding-bottom: 10px;
 }
 /* music page end */
+
+/* photo page start */
+
+.photo-gallery{
+    width:20vw;
+    height: auto;
+    padding: 10px;
+}
+@media only screen and (max-width: 767.98px){
+.photo-gallery{
+    width: 280px;
+    height: auto;
+    }
+}
+
+/* photo page end */
+
 
 /* Footer Start */
 
