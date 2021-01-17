@@ -217,7 +217,7 @@
 /* music page end */
 
 /* photo page start */
-.video-container
+
 .photo-container{
 text-align: center;
 }
@@ -236,6 +236,7 @@ text-align: center;
 /* photo page end */
 
 /* video page Start */
+/* Credit ID= 2 Start */
 .video-container{
     position: relative;
     padding-bottom: 56.25%;
@@ -251,10 +252,28 @@ text-align: center;
     height: 100%;
     padding-bottom: 10px;
 }
-
-
-
+/* Credit ID= 2 End */
 /* video page end */
+
+/* about page start */
+.about-picture-container{
+text-align: center;
+}
+
+.about-picture{
+    width:25vw;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 992px){
+.about-picture{
+    width: 280px;
+    height: auto;
+    }
+}
+
+/* about page start */
 
 
 
