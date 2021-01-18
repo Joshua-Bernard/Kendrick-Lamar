@@ -9,12 +9,14 @@
 .subtitle-1{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .subtitle-2{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
+
 
 .silver-sand-bg{
     background-color: #B0B8B8;
@@ -53,7 +55,7 @@
     background-color:#A3320B;
 }
 .nav-link:hover{
-    color:#A3320B
+    color:#A3320B;
 }
 .navbar-brand{
     text-transform: uppercase;
@@ -82,6 +84,7 @@
     width: auto;
     text-align: center;
 }
+
 .index-hero-text{
     text-align: center;
     position: absolute;
@@ -105,8 +108,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5)
-
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .index-hero-image {
@@ -145,20 +147,25 @@
 }
 
 .studio-index{
-    height:auto;
+    height: auto;
     width: 30vw;
- 
-
 }
 
-@media only screen and (max-width: 767.98px){
+@media only screen and (max-width: 992px){
 .studio-index{
     width: 280px;
     height: auto;
     }
 }
 
-.heart-5-index{
+@media only screen and (max-width: 360px){
+.studio-index{
+    width: 200px;
+    height: auto;
+    }
+}
+
+.center-img{
     text-align: center;
 }
 
@@ -168,13 +175,11 @@
     padding-bottom: 10px;
 }
 
-
-
-.index-video{
+.index-video {
     height: 25vw;
     width: 40vw;
-    padding-bottom: 10px;
 }
+
 @media only screen and (max-width: 767.98px){
 .index-video{
     width: 280px;
@@ -191,29 +196,30 @@
     width:30vw ;
     padding-bottom: 1vh;
 }
+
 @media only screen and (max-width: 767.98px){
 .album-covers{
     width: 280px;
     height: auto;
     }
 }
+
 .tracklist li{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     padding-bottom: 1vh;
     list-style: none;
-
 }
 
 .tracklist-p1 li{
     padding-left: 50%;
-
 }
 
 .album-title{
     text-align: center;
     padding-bottom: 10px;
 }
+
 /* music page end */
 
 /* photo page start */
@@ -221,11 +227,13 @@
 .photo-container{
 text-align: center;
 }
+
 .photo-gallery{
     width:22vw;
     height: auto;
     padding: 10px;
 }
+
 @media only screen and (max-width: 992px){
 .photo-gallery{
     width: 280px;
@@ -236,6 +244,7 @@ text-align: center;
 /* photo page end */
 
 /* video page Start */
+
 /* Credit ID= 2 Start */
 .video-container{
     position: relative;
@@ -244,6 +253,7 @@ text-align: center;
     height: 0;
     overflow: hidden; 
 }
+
 .music-videos{
  position: absolute;
     top: 0; 
@@ -252,6 +262,7 @@ text-align: center;
     height: 100%;
     padding-bottom: 10px;
 }
+
 /* Credit ID= 2 End */
 /* video page end */
 
@@ -278,8 +289,50 @@ text-align: center;
     padding-bottom: 100px;
 }
 
-
 /* about page end */
+
+/* tour page start */
+/* Credit ID= 3 Start */
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #000000;
+    border-left: 1px solid;
+    border-color: #505353;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #A3320B;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/* Credit ID= 3 End */
+
+/* tour page end */
 
 /* Footer Start */
 
