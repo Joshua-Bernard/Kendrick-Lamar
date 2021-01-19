@@ -31,6 +31,7 @@
 .info-button{
     background-color: #505353;
 }
+
 .info-button:hover{
     color:#A3320B
 }
@@ -41,6 +42,7 @@
 .active {
     color: #A3320B !important;
 }
+
 .navbar {
     background-color: #505353;
 }
@@ -51,22 +53,25 @@
     font-family: 'Roboto', sans-serif;
     font-size:20px;
 }
+
 .navbar-toggler{
     background-color:#A3320B;
 }
+
 .nav-link:hover{
     color:#A3320B;
 }
+
 .navbar-brand{
     text-transform: uppercase;
     font-size: 5vw;
+    color:#A3320B;
 }
 
 @media only screen and (min-width: 992px){
 .navbar-brand{
     font-size: 40px;
     }
-
 }
 
 .nav-link-group{
@@ -270,8 +275,11 @@ text-align: center;
 /* video page end */
 
 /* about page start */
+.about-titles{
+    padding-bottom: 20px;
+}
 .about-picture-container{
-text-align: center;
+    text-align: center;
 }
 
 .about-picture{
