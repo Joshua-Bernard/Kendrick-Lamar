@@ -350,7 +350,7 @@ text-align: center;
 /* Credit ID=4 Start */
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=email], input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #A3320B; /* Gray border */
