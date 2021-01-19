@@ -171,7 +171,7 @@
 
 .heart-5-index-img{
     height:auto;
-    width:30vw ;
+    width:30vw;
     padding-bottom: 10px;
 }
 
@@ -197,9 +197,16 @@
     padding-bottom: 1vh;
 }
 
-@media only screen and (max-width: 767.98px){
+@media only screen and (max-width: 992px){
 .album-covers{
-    width: 280px;
+    width: 350px;
+    height: auto;
+    }
+}
+
+@media only screen and (max-width: 425px){
+.album-covers{
+    width: 250px;
     height: auto;
     }
 }
@@ -211,12 +218,13 @@
     list-style: none;
 }
 
-.tracklist-p1 li{
-    padding-left: 50%;
+.tracklist{
+    padding-left: 0px;
+
 }
 
 .album-title{
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
 }
 
