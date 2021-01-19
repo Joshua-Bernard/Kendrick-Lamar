@@ -6,17 +6,11 @@
     font-size: 16px;
 }
 
-.subtitle-1{
+.subtitle{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     margin-bottom: 0;
 }
-
-.subtitle-2{
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-}
-
 
 .silver-sand-bg{
     background-color: #B0B8B8;
