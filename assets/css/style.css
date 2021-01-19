@@ -59,19 +59,19 @@
     background-color:#A3320B;
 }
 
-.nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover{
     color:#A3320B;
 }
 
-.navbar-brand{
+.navbar-dark .navbar-brand {
     text-transform: uppercase;
-    font-size: 5vw;
+    font-size: 40px;
     color:#A3320B;
 }
 
-@media only screen and (min-width: 992px){
-.navbar-brand{
-    font-size: 40px;
+@media only screen and (max-width: 500px){
+.navbar-dark .navbar-brand {
+    font-size: 20px;
     }
 }
 
