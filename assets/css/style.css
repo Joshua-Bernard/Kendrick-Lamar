@@ -375,6 +375,7 @@ form label {
 
 footer {
     background-color: #505353;
+    padding: 1rem 1rem;
 }
 .sl-footer{
     text-align: center;
@@ -382,7 +383,7 @@ footer {
 
 .fab{
     color: #000000;
-    padding: 20px;
+    
     font-size: 30px;
     width: 30px;
     text-decoration: none;
