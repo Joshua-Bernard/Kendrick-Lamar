@@ -8,7 +8,6 @@
  
 This project is aimed at giving American rapper Kendrick Lamar a platform to interact and expand his fan base. A direct line of communication. The website will include details about the artist so that fans can learn more about him and buy his music, or be directed to where they can stream his music. They can also find details of his tours and directed to where they can purchase tickets. This will also be a point of contact for potential business ventures.
  
- 
 # User Experience Design
  
 ## User Stories
@@ -90,11 +89,6 @@ This page is aimed at users that want to get to know Kendrick in more detail out
 ## Contact
 
 This page contains a form to contact Kendrick Lamar's Label and displays alternative methods of contact for different topics. This will help when it comes to potential clients that want to collaborate with Kendrick Lamar or clients that want to book him for a concert.
-
- 
-### **Features Left to Implement**
-
-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
  
 ## Technologies Used
  
@@ -187,8 +181,8 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 As the developer, I have had several people visit the website and give me feedback which has been nothing but positive, including comments on good design and ease of navigation. A range of devices were used starting at mobiles, tablets and computers.
 
 ## Validator testing
-All screenshots from my code validation results can be found [**here**](https://github.com/JBlk99/Kendrick-Lamar/tree/master/assets/images/readme-images)
-
+- [W3C Markup Validation service](https://validator.w3.org/) - used to check validity of website HTML code.  No errors or warnings reported.
+- [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/validator) - used to check validity of website CSS code.  No errors or warnings reported.
 ## Bugs
 
 * Burger icon not appearing.
@@ -221,7 +215,31 @@ This website was published using GitHub Pages. I will take you through the steps
 
 8. The page will reload and you will see the link of your published page displayed under 'GitHub pages'. The text will say 'Your site is published at website'.
 
- 
+ ## Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes.
+
+ 1. Log in to GitHub and locate the GitHub Repository of choice
+
+ 2. At the top of the Repository just above the "Settings" button on the menu, locate the "Fork" button and click it.
+
+ 3. You should now have a copy of the original repository in your GitHub account to do ass you please. This will not affect the original repository.
+
+## Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository of choice.
+
+2. Under the repository name, locate the option "Clone or download" and click it.
+
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link. it will be used in the following steps.
+
+4. Open Git Bash.
+
+5. Change the current working directory to the location where you want the new cloned directory to be made.
+
+6. Type git clone into the terminal, and then paste the URL that was copied in the previous steps in Step 3.
+
+7. Press Enter. Your local clone will be created.
  
 # Credits
 1. [Photo Grid](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
@@ -253,4 +271,3 @@ This website was published using GitHub Pages. I will take you through the steps
 * Code Institute tutors and staff for their easy to access course material.
 
 * [Zoka the author's](https://open.spotify.com/artist/4ki0KQ9zvYlLmuLI3HSsu6?autoplay=true) music keeping me going through my 12-hour coding sessions.
- 
