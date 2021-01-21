@@ -186,6 +186,9 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
 As the developer, I have had several people visit the website and give me feedback which has been nothing but positive, including comments on good design and ease of navigation. A range of devices were used starting at mobiles, tablets and computers.
 
+## Validator testing
+All screenshots from my code validation results can be found [**here**](https://github.com/JBlk99/Kendrick-Lamar/tree/master/assets/images/readme-images)
+
 ## Bugs
 
 * Burger icon not appearing.
