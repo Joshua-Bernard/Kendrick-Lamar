@@ -234,6 +234,7 @@ body{
 
 /* photo page start */
 
+/* Credit ID= 1 Start */
 .photo-container{
 text-align: center;
 }
@@ -256,6 +257,8 @@ text-align: center;
     height: auto;
     }
 }
+
+/* Credit ID= 1 End */
 
 /* photo page end */
 
@@ -379,7 +382,7 @@ form label {
 }
 /* When moving the mouse over the submit button, add a darker green color */
 
-/* Credit ID=5 End */
+/* Credit ID=4 End */
 /* contact us page end */
 
 
