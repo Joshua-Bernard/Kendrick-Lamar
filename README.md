@@ -181,8 +181,16 @@ This page contains a form to contact Kendrick Lamar's Label and displays alterna
 As the developer, I have had several people visit the website and give me feedback which has been nothing but positive, including comments on good design and ease of navigation. A range of devices were used starting at mobiles, tablets and computers.
 
 ## Validator testing
-- [W3C Markup Validation service](https://validator.w3.org/) - used to check validity of website HTML code.  No errors or warnings reported.
+- [W3C Markup Validation service](https://validator.w3.org/) - used to check validity of website HTML code.  No errors or warnings reported with a exception below.
+
 - [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/validator) - used to check validity of website CSS code.  No errors or warnings reported.
+
+<img src="./assets/images/readme-images/index-val-html.png">
+
+<img src="./assets/images/readme-images/videos-val-html.png">
+
+The issues raised in the validator results are direct from the youtube embed code and is not my own code.
+
 ## Bugs
 
 * Burger icon not appearing.
@@ -267,6 +275,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ## Acknowledgements
 
 * Mentor [Oluwafemi Medale](https://github.com/omedale) for his guidance.
+
+* [Anthony O' Brien](https://github.com/omedale) for always pointing me in the right direction to solve my problems.
 
 * Code Institute tutors and staff for their easy to access course material.
 
