@@ -315,6 +315,9 @@ text-align: center;
 /* about page end */
 
 /* tour page start */
+.rep-label{
+    text-align: center;
+}
 /* Credit ID= 3 Start */
 .timeline-item {
     padding: 4em 2em 0em 2em;
