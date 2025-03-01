@@ -2,7 +2,7 @@
  
 <img src="./assets/images/readme-images/responsive-proof.png" style="margin: 15px; width:800px;">
  
-**[Active link to the website portfolio](https://jblk99.github.io/Kendrick-Lamar/index.html)**
+**[Active link to the website portfolio]([https://jblk99.github.io/Kendrick-Lamar/index.html](https://joshua-bernard.github.io/Kendrick-Lamar/index.html))**
  
 ## Overview
  
